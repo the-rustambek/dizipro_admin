@@ -4,15 +4,19 @@
   box-shadow: 0px 4px 6px rgba(214, 214, 214, 0.8);
   border-radius: 0px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 15px;
 }
 
 .dashboard-list{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+  height: 400px; 
 }
 
 .dashboard-item{

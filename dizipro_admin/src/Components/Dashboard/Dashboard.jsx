@@ -1,10 +1,10 @@
-import DashboardIcon from "../../Assets/Img/DashboardIcon";
-import Logo from "../../Assets/Img/Logo";
-import Messenger from "../../Assets/Img/Messenger";
-import Payment from "../../Assets/Img/Payment";
-import Projects from "../../Assets/Img/Projects";
-import Users from "../../Assets/Img/Users";
-
+import DashboardIcon from "../../Assets/Img/DashboardIcon.svg";
+import Logo from "../../Assets/Img/Logo.svg";
+import Messenger from "../../Assets/Img/Messenger.svg";
+import Payment from "../../Assets/Img/Payment.svg";
+import Projects from "../../Assets/Img/Projects.svg";
+import Users from "../../Assets/Img/Users.svg";
+import "./Dashboard.css"
 const Dashboard = () =>{
   return (
     <div className="dashboard">
