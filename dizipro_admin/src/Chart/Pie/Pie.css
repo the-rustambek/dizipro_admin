@@ -1,8 +1,56 @@
 .pie-chart{
-  width: 200px;
+  width: 500px;
+  height: 337px;
+  padding: 50px;
+  padding-top: 15px;
 }
 .pie-top{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20px;  
+}
+
+.pie{
+  border-left: 1px solid rgb(224, 226, 224);
+}
+
+.pie-box{
+  width: 300px;
+  height: 227px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pie-list p{
+  width: 150px;
+}
+
+.pie-list{
+  position: relative;
+}
+.pie-men::before{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color:#E929E1;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: -10%;
+  
+}
+
+.pie-women::before{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #3733E4;
+  border-radius: 50%;
+  position: absolute;
+  top: 65%;
+  left: -10%;
 }

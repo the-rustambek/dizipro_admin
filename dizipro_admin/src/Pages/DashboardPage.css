@@ -6,13 +6,22 @@
 
 
 .main{
-  /* width: 97%; */
+  width: 100%;
 }
 
 .chart{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: #F6F6F6;
+  padding: 20px;
+}
 
+.main-progress{
+  padding: 20px 50px;
   
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  background-color: #F6F6F6;
 }

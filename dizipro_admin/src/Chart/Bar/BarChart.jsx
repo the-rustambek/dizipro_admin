@@ -22,16 +22,20 @@ const BarChart = () => {
       "December"
     ],
     datasets: [{
-      label: 'My First Dataset',
+      label: 'January',
       data: [180, 200, 400, 500, 800, 1000, 890, 400, 250, 600, 844, 100],
       backgroundColor: [
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(255, 159, 64, 0.2)',
-        'rgba(255, 205, 86, 0.2)',
-        'rgba(75, 192, 192, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(153, 102, 255, 0.2)',
-        'rgba(201, 203, 207, 0.2)'
+        '',
+        'rgba(255, 159, 64)',
+        'rgba(255, 1, 86)',
+        'rgba(75, 192, 192)',
+        'rgba(54, 162, 235)',
+        'rgba(153, 102, 255)',
+        'rgba(201, 20, 207)',
+        'rgba(1, 3, 207)',
+        'rgba(1, 203, 207)',
+        'rgba(201, 203, 7)'
+
       ],
       borderColor: [
         'rgb(255, 99, 132)',
@@ -56,7 +60,6 @@ const BarChart = () => {
     legend: {
       labels: {
         fontSize: 12,
-
       }
     }
   }
