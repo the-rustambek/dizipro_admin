@@ -1,7 +1,7 @@
 import Notifications from "../../Assets/Img/Notifications.svg";
 import Avatar from "../../Assets/Img/Avatar.svg";
-
-import "./Header.css"
+import "./Header.css";
+ 
 const Header = () =>{
   return (
     <div className="header">

@@ -1,5 +1,18 @@
 .dashboard-page{
   display: flex;
   align-items: flex-start;
+  /* justify-content: space-between; */
 }
 
+
+.main{
+  /* width: 97%; */
+}
+
+.chart{
+
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

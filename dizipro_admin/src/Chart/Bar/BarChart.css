@@ -1,0 +1,21 @@
+.bar{
+  /* width: 400px;
+  background-color: red; */
+}
+
+.bar-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.bar-chart{
+  width: 800px;
+  height: 270px;
+  padding: 50px;
+  padding-bottom: 0px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column; */
+}
