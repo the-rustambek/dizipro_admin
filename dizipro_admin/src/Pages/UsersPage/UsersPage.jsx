@@ -1,8 +1,9 @@
 import Dashboard from "../../Components/Dashboard/Dashboard";
 import Header from "../../Components/Header/Header";
 import SearchFilter from "../../Components/SearchFilter/SearchFilter";
-import UsersTable from "../../Components/UsersTable/UsersTable";
-import "./UsersPage.css"
+import EnhancedTable from "../../Components/UsersTable/UsersTable";
+
+import "./UsersPage.css";
 
 const UsersPage = () =>{
   return (
@@ -13,7 +14,7 @@ const UsersPage = () =>{
       <div className="users-box">
         <div className="users-content">
        <SearchFilter />
-       <UsersTable />
+       <EnhancedTable />
        </div>
       </div>
       
