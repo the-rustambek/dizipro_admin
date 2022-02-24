@@ -1,0 +1,14 @@
+.wrapper{
+  /* width: 100%; */
+
+}
+
+.users-table{
+  width: 100%;
+}
+
+.users-span{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}

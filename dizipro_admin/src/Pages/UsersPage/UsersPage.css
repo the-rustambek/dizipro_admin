@@ -1,0 +1,21 @@
+.users-page{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.users-box{
+  background-color:#f6f6f6;
+  padding: 25px;
+}
+
+.mains{
+  width: 100%;
+}
+
+.users-content{
+
+  background-color: white;
+  padding: 8px 18px 12px 18px;
+  border-radius: 14px 14px 0px 0px;
+}

@@ -1,9 +1,9 @@
-import BarChart from "../Chart/Bar/BarChart";
-import LineChart from "../Chart/LineChart/LineChart";
-import PieChart from "../Chart/Pie/Pie";
-import Progress from "../Chart/Progress/Progress";
-import Dashboard from "../Components/Dashboard/Dashboard";
-import Header from "../Components/Header/Header";
+import BarChart from "../../Components/Chart/Bar/BarChart";
+import LineChart from "../../Components/Chart/LineChart/LineChart";
+import PieChart from "../../Components/Chart/Pie/Pie";
+import Progress from "../../Components/Chart/Progress/Progress";
+import Dashboard from "../../Components/Dashboard/Dashboard";
+import Header from "../../Components/Header/Header";
 import "./DashboardPage.css"
 
 
