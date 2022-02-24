@@ -1,4 +1,5 @@
 import BarChart from "../Chart/Bar/BarChart";
+import LineChart from "../Chart/LineChart/LineChart";
 import PieChart from "../Chart/Pie/Pie";
 import Progress from "../Chart/Progress/Progress";
 import Dashboard from "../Components/Dashboard/Dashboard";
@@ -19,6 +20,7 @@ const DashboardPage = () =>{
       </div>
       <div className="main-progress">
         <Progress />
+        <LineChart />
       </div>
       
       </div>

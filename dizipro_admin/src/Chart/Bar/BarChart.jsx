@@ -58,8 +58,13 @@ const BarChart = () => {
       }
     },
     legend: {
+     
+      label: {
+        display:0
+      },
       labels: {
         fontSize: 12,
+ 
       }
     }
   }

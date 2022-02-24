@@ -1,0 +1,44 @@
+.line-chart{
+  width: 661px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07);
+border-radius: 12px;
+padding: 15px;
+  background-color: white;
+}
+
+.line{
+  /* height: 200px; */
+  width: 500px;
+  /* height: 150px; */
+}
+.line-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 8px; */
+}
+.line-chart span{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 10px;
+}
+.line-chart span b{
+  
+  /* font-size: 25px; */
+  padding-left: 10px;
+  font-weight: bolder;
+
+}
+.line-chart span p{
+  color: red;
+  font-size: 10px;
+  padding-left: 5px;
+
+
+}
+.line-title{
+  font-weight: 500;
+}

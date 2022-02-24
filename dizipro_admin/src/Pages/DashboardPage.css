@@ -7,21 +7,25 @@
 
 .main{
   width: 100%;
+background-color: #F6F6F6;
+padding-bottom: 56px;
 }
 
 .chart{
   display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   background-color: #F6F6F6;
   padding: 20px;
+  padding-bottom: 0;
 }
 
 .main-progress{
   padding: 20px 50px;
+  padding-top: 0;
   
   display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   background-color: #F6F6F6;
 }

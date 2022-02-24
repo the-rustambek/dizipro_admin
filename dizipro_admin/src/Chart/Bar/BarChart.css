@@ -2,12 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 .bar-chart{
   width: 900px;
-  height: 337px;
-  padding: 50px;
+  height: 287px;
+  padding: 15px 50px;
   padding-top: 15px;
 
+}
+
+.bar-title{
+  font-size: 18px;
+  font-weight: 700;
 }

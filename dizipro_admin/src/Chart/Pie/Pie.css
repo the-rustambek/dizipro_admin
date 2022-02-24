@@ -1,7 +1,7 @@
 .pie-chart{
   width: 500px;
   height: 337px;
-  padding: 50px;
+  padding: 15px;
   padding-top: 15px;
 }
 .pie-top{
@@ -53,4 +53,9 @@
   position: absolute;
   top: 65%;
   left: -10%;
+}
+
+.pie-title{
+  font-size: 18px;
+  font-weight: 700;
 }
