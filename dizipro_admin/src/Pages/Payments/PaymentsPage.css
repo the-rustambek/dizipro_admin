@@ -1,0 +1,21 @@
+.payments-page{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.payments-box{
+  background-color:#f6f6f6;
+  padding: 25px;
+}
+
+.payments-main{
+  width: 100%;
+}
+
+.payments-content{
+
+  background-color: white;
+  padding: 8px 18px 12px 18px;
+  border-radius: 14px 14px 0px 0px;
+}

@@ -1,0 +1,21 @@
+.projects-page{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.projects-box{
+  background-color:#f6f6f6;
+  padding: 25px;
+}
+
+.project-main{
+  width: 100%;
+}
+
+.projects-content{
+
+  background-color: white;
+  padding: 8px 18px 12px 18px;
+  border-radius: 14px 14px 0px 0px;
+}

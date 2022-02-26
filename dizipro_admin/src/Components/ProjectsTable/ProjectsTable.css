@@ -1,0 +1,96 @@
+.projects-table{
+  width: 100%;
+  text-align: start;
+  padding-top: 15px;
+}
+
+
+
+.projects-btn{
+  background-color: white;
+  border: none;
+}
+.projects-btn img{
+  width: 18px;
+  height: 18px;
+}
+
+thead , tbody{
+  text-align: start;
+}
+
+thead th{
+  text-align: start;
+
+}
+
+.tbody-check{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+thead th{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.3;
+  padding: 8px 0px;
+}
+tbody th, tbody td{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+.tbody-tr{
+  height: 55px;
+}
+
+.wrappers .projects-table .project-td{
+  height: 20px;
+}
+
+
+.pagination-list{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 200px; */
+  text-align: center;
+}
+.pagination-list  button{
+  background-color: white;
+  border: none;
+}
+.pagination-list li{
+  margin: 0px 10px;
+}
+
+
+
+.pagination-list li .now-btn{
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.wrappers .projects-table  .td-status p{
+font-size: 14px;
+line-height: 20px;
+color: #008DDD;
+border: 1px solid #E3F1F9;
+background-color: #E3F1F9;
+border-radius: 50px;
+width: 90px;
+padding: 2px;
+text-align: center;
+}
+
+.wrappers .projects-tds{
+  width: 400px;
+  height: 30px;
+}

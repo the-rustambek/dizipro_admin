@@ -1,11 +1,11 @@
-import "./UsersTable.css"
+import "./ProjectsTable.css"
 import Avatar from "../../Assets/Img/Avatar.svg"
 import menu from "../../Assets/Img/menu.png";
 import { useEffect, useState } from "react";
 import LeftNext from "../../Assets/Img/LeftNext.svg"
 import RightNext from "../../Assets/Img/RightNext.svg"
 
-const UsersTable = () =>{
+const ProjectsTable = () =>{
 const [users, setUsers] = useState([]);
 
 useEffect(() =>{
@@ -15,23 +15,22 @@ fetch("https://jsonplaceholder.typicode.com/users").then((res) => res.json()).th
 
 
 return (
-<div className="wrapper">
-  <table className="users-table">
+<div className="wrappers">
+  <table className="projects-table">
     <thead>
       <tr>
-        <th scope="col">
+        <th className="th-checks" scope="col">
           <input type="checkbox" />
         </th>
         <th>
-          Name and ID
-
+        Name of project
         </th>
         <th>
-          Email
+        Status
         </th>
-        <th>Gender</th>
-        <th>Country</th>
-        <th>Activity (day)</th>
+        <th>Start date</th>
+        <th>End date</th>
+        <th>Price</th>
         <th>
 
         </th>
@@ -41,29 +40,23 @@ return (
     {users.length > 0 && (
     <tbody>
       {users.map((user, i) =>(
-      <tr className="tbody-tr" key={i}>
-        <th className="tbody-checkbox">
+      <tr className="tbody-tr" key={i}>   
+        <td className="tbody-check">
           <input type="checkbox" />
-        </th>
-        <td>
-          <span className="users-span">
-            <img src={Avatar} alt="" className="users-avatar" />
-            <span>
-              <p>{user.name} </p>
-              <p>ID {user.id*25060}</p>
-            </span>
-          </span>
         </td>
-        <td>
-          {user.email}
+        <td className="projects-tds">
+              <b>{user.address.street} Lorem, ipsum. </b>
+              <p>ID {user.id*25060}</p> 
         </td>
-        <td>Man</td>
-        <td>{user.address.city}</td>
-        <td>{user.id*10} min</td>
-        <td>
-          <button className="menu-btn">
+        <td className="td-status">
+          <p>Finished</p>
+        </td>
+        <td className="project-td">0{user.id}.0{user.id}.2022</td>
+        <td className="project-td">{user.id*3}.{user.id*2}.2022</td>
+        <td className="project-td"> <b>${user.id*13000}</b></td>
+        <td className="project-td">
+          <button className="projects-btn">
             <img src={menu} alt="" />
-
           </button>
         </td>
       </tr>
@@ -74,7 +67,7 @@ return (
 
   
   </table>
-  <ul className="paginations-list">
+  <ul className="pagination-list">
       <li className="">
       <button >
         <img src={LeftNext} alt="" className="before-img" />
@@ -101,4 +94,4 @@ return (
 )
 }
 
-export default UsersTable;
+export default ProjectsTable;

@@ -1,0 +1,48 @@
+.payments-table{
+  width: 100%;
+  text-align: start;
+  padding-top: 15px;
+}
+
+.users-span{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+
+
+thead , tbody{
+  text-align: start;
+}
+
+thead th{
+  text-align: start;
+}
+
+.payments-avatar{
+  width: 24px;
+  height: 24px;
+}
+
+.users-span p{
+  font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+color: #171717;
+padding-left: 10px;
+}
+
+
+thead th{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #AEAEAE;
+  margin-bottom: 20px;
+}
+.tbody-tr{
+  height: 55px;
+}

@@ -63,3 +63,27 @@ thead th{
 .tbody-tr{
   height: 55px;
 }
+
+.paginations-list{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 200px; */
+  text-align: center;
+}
+.paginations-list  button{
+  background-color: white;
+  border: none;
+}
+.paginations-list li{
+  margin: 0px 10px;
+}
+
+
+
+.paginations-list li .now-btn{
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 3px 5px;
+}

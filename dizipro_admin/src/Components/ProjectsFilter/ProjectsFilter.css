@@ -1,0 +1,82 @@
+.projects-list {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* width: 380px; */
+  padding: 12px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f6f6f6; 
+}
+.projects-item{
+  margin: 0px 22px;
+}
+.projects-btn {
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #808080;
+  background-color: white;
+}
+
+.filter-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 850px;
+  
+  
+  
+}
+.filter{
+  padding: 12px;
+  padding-top: 15px;
+}
+
+.filter-form {
+  position: relative;
+}
+
+.search-btn {
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background-color: white;
+}
+
+.filter-input {
+  padding: 8px;
+  padding-left: 40px;
+  border: 1px solid #cac7c7;
+  width: 410px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.filter-button {
+  background: #01605A;
+  border-radius: 10px;
+  padding: 8.5px;
+  color: white;
+  border: none;
+  position: absolute;
+  top: 50%;
+  width: 121px;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.filter-btn{
+  background: #F1F1F1;
+border-radius: 8px;
+padding: 8px 16px;
+border: 1px solid #f6f6f6;
+}
+.filter-btns{
+  background-color: white;
+  border: none;
+}

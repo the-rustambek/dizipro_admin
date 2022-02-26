@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import DashboardIcon from "../../Assets/Img/DashboardIcon.svg";
 import Logo from "../../Assets/Img/Logo.svg";
 import Messenger from "../../Assets/Img/Messenger.svg";
@@ -12,29 +13,29 @@ const Dashboard = () =>{
       <img src={Logo} alt="" />
       <ul className="dashboard-list">
         <li className="dashboard-item">
-          <a href="#dashboard" className="dashboard-link">
+          <Link to="/" className="dashboard-link">
               <img src={DashboardIcon} alt="" />
-          </a>
+          </Link>
         </li>
         <li className="dashboard-item">
-          <a href="#dashboard" className="dashboard-link">
+          <Link to="/usersPage" className="dashboard-link">
               <img src={Users} alt="" />
-          </a>
+          </Link>
         </li>
         <li className="dashboard-item">
-          <a href="#dashboard" className="dashboard-link">
+          <Link to="/paymentsPage" className="dashboard-link">
               <img src={Payment} alt="" />
-          </a>
+          </Link>
         </li>
         <li className="dashboard-item">
-          <a href="#dashboard" className="dashboard-link">
+          <Link to="/projectsPage" className="dashboard-link">
               <img src={Projects} alt="" />
-          </a>
+          </Link>
         </li>
         <li className="dashboard-item">
-          <a href="#dashboard" className="dashboard-link">
+          <Link to="/messengerPage" className="dashboard-link">
               <img src={Messenger} alt="" />
-          </a>
+          </Link>
         </li>
         
 
