@@ -1,16 +1,28 @@
 import "./SearchFilter.css";
  import Search from "../../Assets/Img/Search.svg"
+import { useRef, useState } from "react";
 const SearchFilter = () =>{
+
+  const allMenu = useRef();
+
+
+
   return (
       <>
       <ul className="users-list">
-          <li className="users-item">
-            <button className="users-btn">
+          <li className="users-item" ref={allMenu}>
+            <button  onClick={() =>{
+              allMenu.current.style.backgroundColor="red"
+
+            }}  className="users-btn" >
               All
             </button>
           </li>
           <li className="users-item">
-            <button className="users-btn">
+            <button   onClick={() =>{
+              allMenu.current.style.backgroundColor="red"
+
+            }}  className="users-btn">
               Not seen
             </button>
           </li>

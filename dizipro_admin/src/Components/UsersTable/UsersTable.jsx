@@ -11,6 +11,7 @@ fetch("https://jsonplaceholder.typicode.com/users").then((res) => res.json()).th
 },[])
 
 
+
 return (
 <div className="wrapper">
   <table className="users-table">
@@ -37,8 +38,8 @@ return (
     
       {users.length > 0 && (
         <tbody>
-      {users.map((user) =>(
-           <tr className="tbody-tr">
+      {users.map((user, i) =>(
+           <tr className="tbody-tr" key={i}>
                 <th className="tbody-checkbox">
                    <input type="checkbox" />
                 </th>
@@ -56,7 +57,7 @@ return (
                   </td>
                   <td>Man</td>
                   <td>{user.address.city}</td>
-                  <td>{user.id*10}</td>
+                  <td>{user.id*10} min</td>
                       <td>
                   <button className="menu-btn">
                     <img src={menu} alt="" />
